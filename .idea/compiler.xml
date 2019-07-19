@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="spring-cloud-finchley-weather-msa-weather-report-eureka" />
+        <module name="spring-cloud-finchley-weather-msa-weather-eureka-client-zuul" />
+        <module name="spring-cloud-finchley-weather-micro-weather-eureka-client" />
+        <module name="spring-cloud-finchley-weather-msa-weather-city-eureka" />
+        <module name="spring-cloud-finchley-weather-msa-weather-report-server" />
+        <module name="spring-cloud-finchley-weather-micro-weather-config-client-bus" />
+        <module name="spring-cloud-finchley-weather-hello-world" />
+        <module name="spring-cloud-finchley-weather-msa-weather-city-server" />
+        <module name="spring-cloud-finchley-weather-micro-weather-eureka-client-feign-hystrix" />
+        <module name="spring-cloud-finchley-weather-micro-weather-eureka-client-zuul" />
+        <module name="spring-cloud-finchley-weather-msa-weather-data-eureka" />
+        <module name="spring-cloud-finchley-weather-msa-weather-collection-eureka-feign" />
+        <module name="spring-cloud-finchley-weather-hello-world-rest" />
+        <module name="spring-cloud-finchley-weather-msa-weather-data-server" />
+        <module name="spring-cloud-finchley-weather-micro-weather-report" />
+        <module name="spring-cloud-finchley-weather-micro-weather-config-client" />
+        <module name="spring-cloud-finchley-weather-micro-weather-config-server" />
+        <module name="spring-cloud-finchley-weather-micro-weather-config-server-bus" />
+        <module name="spring-cloud-finchley-weather-micro-weather-redis" />
+        <module name="spring-cloud-finchley-weather-msa-weather-collection-eureka" />
+        <module name="spring-cloud-finchley-weather-msa-weather-report-eureka-feign-gateway-hystrix" />
+        <module name="spring-cloud-finchley-weather-hello-world-log" />
+        <module name="spring-cloud-finchley-weather-micro-weather-quartz" />
+        <module name="spring-cloud-finchley-weather-micro-weather-eureka-server" />
+        <module name="spring-cloud-finchley-weather-msa-weather-report-eureka-feign-gateway" />
+        <module name="spring-cloud-finchley-weather-msa-weather-collection-server" />
+        <module name="spring-cloud-finchley-weather-micro-weather-basic" />
+        <module name="spring-cloud-finchley-weather-micro-weather-eureka-client-feign" />
+        <module name="spring-cloud-finchley-weather-msa-weather-report-eureka-feign" />
+        <module name="spring-cloud-finchley-weather-micro-weather-eureka-client-ribbon" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="spring-cloud-finchley-samples" target="1.5" />
+      <module name="spring-cloud-finchley-weather" target="1.5" />
+      <module name="spring-cloud-finchley-weather-hello-world" target="1.5" />
+      <module name="spring-cloud-finchley-weather-hello-world-log" target="1.5" />
+      <module name="spring-cloud-finchley-weather-hello-world-rest" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-basic" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-config" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-config-client" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-config-client-bus" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-config-server" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-config-server-bus" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-eureka" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-eureka-client" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-eureka-client-feign" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-eureka-client-feign-hystrix" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-eureka-client-ribbon" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-eureka-client-zuul" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-eureka-server" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-quartz" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-redis" target="1.5" />
+      <module name="spring-cloud-finchley-weather-micro-weather-report" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-city" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-city-eureka" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-city-server" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-collection" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-collection-eureka" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-collection-eureka-feign" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-collection-server" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-data" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-data-eureka" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-data-server" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-eureka-client-zuul" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-report" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-report-eureka" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-report-eureka-feign" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-report-eureka-feign-gateway" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-report-eureka-feign-gateway-hystrix" target="1.5" />
+      <module name="spring-cloud-finchley-weather-msa-weather-report-server" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
