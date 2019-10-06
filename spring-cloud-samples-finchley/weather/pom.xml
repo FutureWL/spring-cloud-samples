@@ -3,13 +3,13 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <artifactId>spring-cloud-finchley</artifactId>
+        <artifactId>spring-cloud-samples-finchley</artifactId>
         <groupId>io.github.futurewl</groupId>
         <version>190703</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>spring-cloud-finchley-weather</artifactId>
+    <artifactId>weather</artifactId>
     <packaging>pom</packaging>
     <modules>
         <module>spring-cloud-finchley-weather-hello-world</module>
@@ -18,6 +18,5 @@
         <module>spring-cloud-finchley-weather-micro-weather</module>
         <module>spring-cloud-finchley-weather-msa-weather</module>
     </modules>
-
 
 </project>
