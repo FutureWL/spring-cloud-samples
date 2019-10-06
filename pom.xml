@@ -7,11 +7,24 @@
     <artifactId>spring-cloud-samples</artifactId>
     <groupId>io.github.futurewl</groupId>
     <version>190703</version>
+    <name>00-${artifactId}</name>
     <packaging>pom</packaging>
     <modules>
-        <module>spring-cloud-samples-finchley</module>
+        <module>angel</module>
+        <module>brixton</module>
+        <module>camden</module>
+        <module>dalston</module>
+        <module>edgware</module>
+        <module>finchley</module>
+        <module>greenwich</module>
+        <module>hoxton</module>
     </modules>
-
+    <properties>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
     <repositories>
         <repository>
             <id>aliyun</id>

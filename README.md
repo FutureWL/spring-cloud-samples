@@ -1,2 +1,2 @@
-# spring-cloud-finchley-samples
+# finchley-samples
 Spring Cloud Finchley 案例
