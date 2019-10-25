@@ -28,10 +28,6 @@ public class BrixtonSpringCloudApplicationRibbonConsumer {
         return new RestTemplate();
     }
 
-    public String helloFallback() {
-        return "error";
-    }
-
     public static void main(String[] args) {
         SpringApplication.run(BrixtonSpringCloudApplicationRibbonConsumer.class, args);
     }

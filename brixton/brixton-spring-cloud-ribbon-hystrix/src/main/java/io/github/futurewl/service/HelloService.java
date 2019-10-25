@@ -19,7 +19,7 @@ public class HelloService {
 
         long start = System.currentTimeMillis();
 
-        String result = restTemplate.getForEntity("http://HELLO-SERVICE/hello", String.class).getBody();
+        String result = restTemplate.getForEntity("http://HELLO-SERVICE-HYSTRIX/hello", String.class).getBody();
 
         long end = System.currentTimeMillis();
 
