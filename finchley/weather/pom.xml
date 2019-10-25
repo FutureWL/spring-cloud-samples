@@ -10,11 +10,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>weather</artifactId>
+    <name>spring-cloud-finchley-samples-weather</name>
     <packaging>pom</packaging>
     <modules>
         <module>hello-world</module>
-        <module>hello-world-rest</module>
         <module>hello-world-log</module>
+        <module>hello-world-rest</module>
         <!-- micro -->
         <module>micro-basic</module>
         <module>micro-quartz</module>
@@ -23,8 +24,8 @@
         <!-- micro-eureka -->
         <module>micro-eureka-server</module>
         <module>micro-eureka-client</module>
-        <module>micro-eureka-client-ribbon</module>
         <module>micro-eureka-client-feign</module>
+        <module>micro-eureka-client-ribbon</module>
         <module>micro-eureka-client-zuul</module>
         <module>micro-eureka-client-feign-hystrix</module>
         <!-- micro-config-->

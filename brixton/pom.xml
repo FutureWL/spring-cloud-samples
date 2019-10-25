@@ -12,19 +12,18 @@
     <artifactId>brixton</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>brixton-eureka</module>
-        <module>brixton-helloworld</module>
-        <module>brixton-ribbon-consumer</module>
-        <module>brixton-hystrix-dashboard</module>
-        <module>brixton-turbine</module>
-        <module>brixton-turbine-amqp</module>
-        <module>brixton-feign-consumer</module>
-        <module>brixton-api-gateway</module>
-        <module>brixton-config-server</module>
-        <module>brixton-stream-hello</module>
-        <module>brixton-trace-1</module>
-        <module>brixton-trace-2</module>
-        <module>brixton-zipkin</module>
+        <module>brixton-spring-boot</module>
+        <module>brixton-spring-cloud-eureka</module>
+        <module>brixton-spring-cloud-ribbon</module>
+        <module>brixton-spring-cloud-ribbon-hystrix</module>
+        <module>brixton-spring-cloud-hystrix-dashboard</module>
+        <module>brixton-spring-cloud-turbine</module>
+        <module>brixton-spring-cloud-turbine-amqp</module>
+        <module>brixton-spring-cloud-feign</module>
+        <!--        <module>brixton-spring-cloud-zuul</module>-->
+        <!--        <module>brixton-spring-cloud-config</module>-->
+        <!--        <module>brixton-spring-cloud-bus</module>-->
+        <!--        <module>brixton-spring-cloud-stream</module>-->
     </modules>
 
     <dependencyManagement>

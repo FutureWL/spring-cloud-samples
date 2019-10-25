@@ -37,7 +37,6 @@ public class WeatherDataServiceImpl implements WeatherDataService {
         return this.doGetWeatherData(uri);
     }
 
-
     private WeatherResponse doGetWeatherData(String uri) {
         ResponseEntity<String> response = restTemplate.getForEntity(uri, String.class);
         String strBody = null;

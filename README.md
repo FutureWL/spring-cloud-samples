@@ -1,2 +1,2 @@
-# finchley-samples
-Spring Cloud Finchley 案例
+# spring-cloud-samples
+Spring Cloud 案例
