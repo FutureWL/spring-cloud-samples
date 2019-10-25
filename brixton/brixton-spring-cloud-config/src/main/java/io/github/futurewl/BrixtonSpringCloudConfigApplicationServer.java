@@ -2,19 +2,13 @@ package io.github.futurewl;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.cloud.netflix.zuul.EnableZuulProxy;
+import org.springframework.cloud.config.server.EnableConfigServer;
 
-/**
- * 功能描述：
- *
- * @author weilai create by 2019-06-06:17:25
- * @version 1.0
- */
-@EnableZuulProxy
+@EnableConfigServer
 @SpringBootApplication
-public class BrixtonApiGatewayApplication {
+public class BrixtonSpringCloudConfigApplicationServer {
     public static void main(String[] args) {
-        new SpringApplicationBuilder(BrixtonApiGatewayApplication.class)
+        new SpringApplicationBuilder(BrixtonSpringCloudConfigApplicationServer.class)
                 .web(true)
                 .run(args);
     }

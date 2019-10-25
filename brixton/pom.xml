@@ -23,8 +23,8 @@
         <module>brixton-spring-cloud-turbine-amqp</module>
         <module>brixton-spring-cloud-feign</module>
         <module>brixton-spring-cloud-hello-service-hystrix</module>
-        <!--        <module>brixton-spring-cloud-zuul</module>-->
-        <!--        <module>brixton-spring-cloud-config</module>-->
+        <module>brixton-spring-cloud-zuul</module>
+        <module>brixton-spring-cloud-config</module>
         <!--        <module>brixton-spring-cloud-bus</module>-->
         <!--        <module>brixton-spring-cloud-stream</module>-->
     </modules>
