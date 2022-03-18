@@ -9,16 +9,30 @@
     <version>190703</version>
     <packaging>pom</packaging>
     <modules>
-        <!--        <module>angel</module>-->
-        <!--        <module>brixton</module>-->
-        <!--        <module>camden</module>-->
-        <!--        <module>dalston</module>-->
-        <!--        <module>edgware</module>-->
-        <!--        <module>finchley</module>-->
-        <!--        <module>greenwich</module>-->
-        <!--        <module>hoxton</module>-->
-        <module>spring-cloud-gateway-sample</module>
-        <module>spring-cloud-gateway-service</module>
+        <module>dalston-config</module>
+        <module>dalston-feign-client</module>
+        <module>dalston-feign-server</module>
+        <module>dalston-feign-provider</module>
+        <module>dalston-feign-invoker</module>
+        <module>dalston-rest-server</module>
+        <module>dalston-first-cloud-rest-client</module>
+        <module>dalston-first-ek-server</module>
+        <module>dalston-first-ek-service-provider</module>
+        <module>dalston-first-ek-service-invoker</module>
+        <module>dalston-first-ribbon-client</module>
+        <module>dalston-first-ribbon-server</module>
+        <module>dalston-first-ribbon-cloud-server</module>
+        <module>dalston-first-ribbon-cloud-invoker</module>
+        <module>dalston-first-ribbon-cloud-provider</module>
+        <module>dalston-hystrix-server</module>
+        <module>dalston-hystrix-client</module>
+        <module>dalston-hystrix-cloud-server</module>
+        <module>dalston-hystrix-cloud-provider</module>
+        <module>dalston-hystrix-cloud-invoker</module>
+        <module>dalston-hystrix-cloud-dashboard</module>
+        <module>dalston-zuul</module>
+        <module>dalston-stream</module>
+        <module>dalston-sleuth</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -26,5 +40,32 @@
         <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Dalston.SR5</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>1.5.21.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>1.5.21.RELEASE</version>
+            </plugin>
+        </plugins>
+    </build>
 </project>
