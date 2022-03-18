@@ -9,16 +9,6 @@
     <version>190703</version>
     <packaging>pom</packaging>
     <modules>
-        <!--        <module>angel</module>-->
-        <!--        <module>brixton</module>-->
-        <!--        <module>camden</module>-->
-        <!--        <module>dalston</module>-->
-        <!--        <module>edgware</module>-->
-        <!--        <module>finchley</module>-->
-        <!--        <module>greenwich</module>-->
-        <!--        <module>hoxton</module>-->
-        <module>spring-cloud-gateway-sample</module>
-        <module>spring-cloud-gateway-service</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -26,5 +16,22 @@
         <maven.compiler.compilerVersion>1.8</maven.compiler.compilerVersion>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>Edgware.SR6</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-dependencies</artifactId>
+                <version>1.5.21.RELEASE</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 </project>
