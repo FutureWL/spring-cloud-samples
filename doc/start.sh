@@ -22,7 +22,7 @@ function start()
 	else
 		echo "Start $SpringBoot success..."
 		nohup java -jar \
-		    -Xms256m -Xmx256m -Xmn128m \
+		    -Xms128m -Xmx128m -Xmn64m \
         -XX:SurvivorRatio=1 \
         -XX:+UseConcMarkSweepGC \
 		$SpringBoot>$SpringBoot.log 2>&1 &
