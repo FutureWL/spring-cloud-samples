@@ -10,7 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>hello-world</artifactId>
-    <name>spring-cloud-finchley-weather-hello-world</name>
+    <name>hello-world</name>
 
     <dependencies>
         <dependency>

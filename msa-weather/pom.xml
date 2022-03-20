@@ -18,20 +18,14 @@
     </properties>
 
     <modules>
-        <!-- msa-collection -->
-        <module>msa-weather-collection-server</module>
-        <module>msa-weather-collection-eureka</module>
-        <module>msa-weather-collection-eureka-feign</module>
-        <!-- msa-city-->
-        <module>msa-weather-city-server</module>
-        <module>msa-weather-city-eureka</module>
-        <!-- msa-data -->
-        <module>msa-weather-data-server</module>
-        <module>msa-weather-data-eureka</module>
+        <!-- micro-weather-eureka -->
+        <module>micro-weather-eureka-client-zuul</module>
+        <module>micro-weather-eureka-client-feign</module>
+        <module>micro-weather-eureka-client-ribbon</module>
+        <!-- msa -->
         <module>msa-weather-eureka-client-zuul</module>
-        <!-- msa-report -->
-        <module>msa-weather-report-server</module>
-        <module>msa-weather-report-eureka</module>
+        <module>msa-weather-eureka-client-zuul-gateway</module>
+        <module>msa-weather-collection-eureka-feign</module>
         <module>msa-weather-report-eureka-feign</module>
         <module>msa-weather-report-eureka-feign-gateway</module>
         <module>msa-weather-report-eureka-feign-gateway-hystrix</module>

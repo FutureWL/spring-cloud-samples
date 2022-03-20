@@ -4,7 +4,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 /**
- * 功能描述：
+ * 功能描述：Hello Controller
  *
  * @author weilai create by 2019-06-08:18:07
  * @version 1.0

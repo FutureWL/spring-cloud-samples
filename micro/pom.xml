@@ -17,13 +17,7 @@
     </properties>
 
     <modules>
-        <!-- micro -->
-        <module>micro-basic</module>
-        <module>micro-quartz</module>
-        <module>micro-redis</module>
-        <module>micro-report</module>
         <!-- micro-eureka -->
-        <module>micro-eureka-server</module>
         <module>micro-eureka-client</module>
         <module>micro-eureka-client-feign</module>
         <module>micro-eureka-client-ribbon</module>
