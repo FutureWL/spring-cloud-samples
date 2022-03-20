@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>micro-eureka-client-feign-hystrix</artifactId>
-    <name>micro-eureka-client-feign-hystrix</name>
+    <artifactId>micro-weather-eureka-client-feign-hystrix</artifactId>
+    <name>micro-weather-eureka-client-feign-hystrix</name>
 
     <dependencies>
         <dependency>

@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>micro-config-server-bus</artifactId>
-    <name>micro-config-server-bus</name>
+    <artifactId>micro-weather-config-server-bus</artifactId>
+    <name>micro-weather-config-server-bus</name>
 
     <dependencies>
         <dependency>
