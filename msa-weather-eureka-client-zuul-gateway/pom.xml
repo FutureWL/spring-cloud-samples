@@ -9,8 +9,8 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>micro-eureka-client-zuul</artifactId>
-    <name>micro-eureka-client-zuul</name>
+    <artifactId>msa-weather-eureka-client-zuul-gateway</artifactId>
+    <name>msa-weather-eureka-client-zuul-gateway</name>
 
     <dependencies>
         <dependency>

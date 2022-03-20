@@ -15,18 +15,23 @@
         <module>hello-world-log</module>
         <module>hello-world-rest</module>
         <!-- micro -->
-        <module>micro</module>
         <module>micro-weather-basic</module>
         <module>micro-weather-redis</module>
         <module>micro-weather-quartz</module>
         <module>micro-weather-report</module>
+        <!-- micro-eureka -->
         <module>micro-weather-eureka-server</module>
         <module>micro-weather-eureka-client</module>
         <module>micro-weather-eureka-client-ribbon</module>
-        <module>micro-weather-eureka-client-feign</module>
         <module>micro-weather-eureka-client-zuul</module>
+        <module>micro-weather-eureka-client-feign</module>
+        <module>micro-weather-eureka-client-feign-hystrix</module>
+        <!-- micro-config-->
+        <module>micro-weather-config-server</module>
+        <module>micro-weather-config-server-bus</module>
+        <module>micro-weather-config-client</module>
+        <module>micro-weather-config-client-bus</module>
         <!-- msa -->
-        <module>msa-weather</module>
         <module>msa-weather-collection-server</module> <!-- 天气数据采集 微服务 -->
         <module>msa-weather-data-server</module> <!-- 天气数据 API 微服务 -->
         <module>msa-weather-city-server</module> <!-- 城市数据 API 微服务 -->
@@ -39,8 +44,10 @@
         <module>msa-weather-report-eureka</module> <!-- 天气预报 微服务 -->
         <module>msa-weather-report-eureka-feign</module> <!-- 天气预报 微服务 -->
         <module>msa-weather-report-eureka-feign-gateway</module> <!-- 天气预报 微服务 -->
+        <module>msa-weather-report-eureka-feign-gateway-hystrix</module> <!-- 天气预报 微服务 -->
         <!-- API -->
         <module>msa-weather-eureka-client-zuul</module>
+        <module>msa-weather-eureka-client-zuul-gateway</module>
     </modules>
 
     <properties>
