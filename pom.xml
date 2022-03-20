@@ -26,9 +26,9 @@
         <module>micro-eureka-client-feign-hystrix</module>
         <!-- micro-config-->
         <module>micro-config-server</module>
-        <module>micro-config-server-bus</module>
+<!--        <module>micro-config-server-bus</module>-->
         <module>micro-config-client</module>
-        <module>micro-config-client-bus</module>
+<!--        <module>micro-config-client-bus</module>-->
         <!-- msa -->
         <!-- msa-collection -->
         <module>msa-collection-server</module>
