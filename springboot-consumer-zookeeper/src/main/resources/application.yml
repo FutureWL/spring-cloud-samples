@@ -1,0 +1,5 @@
+dubbo:
+  application:
+    name: springboot-cunsumer
+  registry:
+    address: zookeeper://192.168.0.14:2181
