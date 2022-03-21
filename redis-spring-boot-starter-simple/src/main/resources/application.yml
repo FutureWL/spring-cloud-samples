@@ -1,0 +1,4 @@
+futurewl:
+  redisson:
+    host: 192.168.0.14
+    password: lsm123456
