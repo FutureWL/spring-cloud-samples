@@ -20,6 +20,7 @@
         <!--        <module>springcloud-dubbo-sample-api</module>-->
         <!--        <module>springcloud-dubbo-sample-provider</module>-->
         <!--        <module>springcloud-dubbo-sample-consumer</module>-->
+        <module>spring-boot-nacos-discovery</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
