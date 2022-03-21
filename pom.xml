@@ -11,8 +11,8 @@
     <modules>
         <module>redis-spring-boot-starter</module>
         <module>redis-spring-boot-starter-simple</module>
-        <module>order-service</module>
-        <module>user-service</module>
+        <module>dubbo/order-service</module>
+        <module>dubbo/user-service</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
