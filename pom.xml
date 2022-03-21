@@ -9,14 +9,14 @@
     <version>190703</version>
     <packaging>pom</packaging>
     <modules>
-        <module>redis-spring-boot-starter</module>
-        <module>redis-spring-boot-starter-simple</module>
-        <module>order-service</module>
-        <module>user-service</module>
-        <module>springboot-consumer</module>
-        <module>springboot-consumer-zookeeper</module>
-        <module>springboot-provider</module>
-        <module>springboot-provider-zookeeper</module>
+<!--        <module>redis-spring-boot-starter</module>-->
+<!--        <module>redis-spring-boot-starter-simple</module>-->
+<!--        <module>order-service</module>-->
+<!--        <module>user-service</module>-->
+<!--        <module>springboot-consumer</module>-->
+<!--        <module>springboot-consumer-zookeeper</module>-->
+<!--        <module>springboot-provider</module>-->
+<!--        <module>springboot-provider-zookeeper</module>-->
         <module>springcloud-dubbo-sample-api</module>
         <module>springcloud-dubbo-sample-provider</module>
         <module>springcloud-dubbo-sample-consumer</module>
