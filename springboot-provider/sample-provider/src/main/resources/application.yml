@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: springboot-dubbo-demo
+dubbo:
+  application:
+    name: springboot-provider
+  protocol:
+    name: dubbo
+    port: 20880
+  registry:
+    address: N/A

@@ -11,8 +11,10 @@
     <modules>
         <module>redis-spring-boot-starter</module>
         <module>redis-spring-boot-starter-simple</module>
-        <module>dubbo/order-service</module>
-        <module>dubbo/user-service</module>
+        <module>order-service</module>
+        <module>user-service</module>
+        <module>springboot-provider</module>
+        <module>springboot-consumer</module>
     </modules>
     <properties>
         <maven.compiler.source>1.8</maven.compiler.source>
@@ -53,6 +55,7 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <version>2.3.5.RELEASE</version>
                 <configuration>
                     <excludes>
                         <exclude>
